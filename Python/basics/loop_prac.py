@@ -1,23 +1,23 @@
-list1=['a','b','c','d','e']
+list1 = ["a", "b", "c", "d", "e"]
 
-i=0
-n=len(list1)
-while i<n:
+i = 0
+n = len(list1)
+while i < n:
     print(list1[i])
-    i+=1
+    i += 1
 
-print('')
+print("")  # noqa: FURB105
 
 for value in list1:
     print(value)
 
-print('')
+print("")  # noqa: FURB105
 
 for val in range(10):
-    if val % 2!=0:
+    if val % 2 != 0:
         continue
     if val == 6:
         break
     print(val)
 
-print('Bye!')
+print("Bye!")

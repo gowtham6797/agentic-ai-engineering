@@ -5,6 +5,9 @@ __pycache__/
 venv/
 .env
 
+# Node
+FastAPI/frontend/node_modules/
+
 # Editors and operating systems
 .vscode/
 .DS_Store
